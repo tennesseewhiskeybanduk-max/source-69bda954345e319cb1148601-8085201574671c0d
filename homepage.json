@@ -1,0 +1,27 @@
+{
+  "hero_tagline": "Live UK-based Country, Americana and Rock Band",
+  "about_p1": "Based in Yorkshire, Tennessee Whiskey have been playing music across the UK for years and have decades of experience in the live music business. From the Cavern Club to student unions, we've entertained crowds at some of the UK's most iconic venues.",
+  "about_p2": "Playing country music, Americana and rock, our inspirations include modern Nashville country artists like Chris Stapleton and Zach Bryan, legends of country such as Johnny Cash and Willie Nelson, as well as American icons like Bruce Springsteen and Tom Petty.",
+  "about_p3": "Country and Americana music should be about celebration, clapping hands, stomping feet and singing along at the top of your lungs — and that's exactly what we aim to do.",
+  "about_availability": "Available for weddings, birthdays, corporate events and more.",
+  "atmos_text": "Clapping hands. Stomping feet. A country party to remember.",
+  "bookus_intro": "Whether it's a wedding, birthday, corporate event or festival — we'd love to be part of it. Find out how it works, what's included, and send us an enquiry.",
+  "members": [
+    { "name": "Steve", "role": "Guitar, vocals & harmonica" },
+    { "name": "Mark", "role": "Guitar & vocals" },
+    { "name": "James R", "role": "Bass & vocals" },
+    { "name": "James D", "role": "Drums & vocals" }
+  ],
+  "reviews": [
+    {
+      "text": "You were absolutely brilliant and we loved having you part of the event. Customers were already asking about whether you'll be back next year!",
+      "author": "Sarah W",
+      "event": "WestFest Corporate Event — Leeds, 2026"
+    },
+    {
+      "text": "Absolutely superb experience with this band. Played at our wedding and went down a storm. Communication was great, the song choices were great and they were just a great bunch of guys to have around!",
+      "author": "Tom H",
+      "event": "Wedding Party — York, 2025"
+    }
+  ]
+}

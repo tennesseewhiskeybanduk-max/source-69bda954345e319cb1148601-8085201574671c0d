@@ -1,0 +1,29 @@
+{
+  "intro": "Whether it's a wedding, birthday, corporate event or festival — find out what's included, how it works, and send us an enquiry.",
+  "included_intro": "A standard Tennessee Whiskey booking is a 2-hour live performance, typically split as two 1-hour sets with a short break in between. During the break we'll play music through the PA to keep the atmosphere going.",
+  "included_items": [
+    "Full PA system & sound equipment",
+    "Own lighting rig",
+    "Music played through the PA between sets",
+    "Special requests learned with enough notice",
+    "Invoice & contract provided for every booking"
+  ],
+  "how_it_works": [
+    {
+      "title": "Send us an enquiry",
+      "desc": "Fill in the form with your event details — date, venue, type of event and anything else useful. We'll get back to you within 48 hours."
+    },
+    {
+      "title": "We confirm the details",
+      "desc": "Once we've discussed your event and agreed everything, we'll put together a contract and invoice so everything is clear and confirmed in writing."
+    },
+    {
+      "title": "Deposit to secure your date",
+      "desc": "A deposit secures your date in the diary. The remaining balance is due closer to the event."
+    },
+    {
+      "title": "We show up and play",
+      "desc": "On the night, we handle everything — setup, sound, lighting, and of course the music. You just enjoy it."
+    }
+  ]
+}

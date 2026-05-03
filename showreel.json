@@ -1,0 +1,71 @@
+{
+  "intro": "Watch us play live, then browse our full song selection — and get in touch if you'd like to book a country band for your event.",
+  "showreel_desc": "Our showreel gives you a taste of what Tennessee Whiskey bring to a live event. From the energy on stage to the big singalong moments, it's the closest thing to being there — and the best way to get a feel for what we do.",
+  "why_book": [
+    {
+      "title": "Live music, no backing tracks",
+      "desc": "Everything you hear on the night is played live. Four musicians, real instruments, real energy."
+    },
+    {
+      "title": "Crowd interaction",
+      "desc": "We read the room and bring the crowd with us — expect singalongs, clapping and dancing."
+    },
+    {
+      "title": "Tailored to your event",
+      "desc": "We work with you in advance to get the set right. Special requests welcome with enough notice."
+    },
+    {
+      "title": "Any event, any size",
+      "desc": "From 40th birthdays to 300-person corporate events — we've played them all and loved every one."
+    }
+  ],
+  "setlist_modern": [
+    { "title": "Revival", "artist": "Zach Bryan" },
+    { "title": "Nine Ball", "artist": "Zach Bryan" },
+    { "title": "Chicken Fried", "artist": "Zac Brown Band" },
+    { "title": "She's Country", "artist": "Jason Aldean" },
+    { "title": "When It Rains It Pours", "artist": "Luke Combs" },
+    { "title": "Drinkin' Problem", "artist": "Midland" },
+    { "title": "Tennessee Whiskey", "artist": "Chris Stapleton" },
+    { "title": "Telescope", "artist": "Nashville" },
+    { "title": "Mr Lonely", "artist": "Midland" },
+    { "title": "Stay a Little Longer", "artist": "Brothers Osborne" },
+    { "title": "Need You Now", "artist": "Lady A" },
+    { "title": "Wicked Game", "artist": "Midland (Chris Isaak cover)" },
+    { "title": "Life is a Highway", "artist": "Rascal Flatts" },
+    { "title": "Achy Breaky Heart", "artist": "Billy Ray Cyrus" }
+  ],
+  "setlist_classic": [
+    { "title": "Ring of Fire", "artist": "Johnny Cash" },
+    { "title": "Jackson", "artist": "Johnny Cash" },
+    { "title": "Hardcore Troubadour", "artist": "Steve Earle" },
+    { "title": "Proud Mary", "artist": "Creedence Clearwater Revival" },
+    { "title": "Hey Hey My My", "artist": "Neil Young" },
+    { "title": "The Night They Drove Old Dixie Down", "artist": "The Band" },
+    { "title": "Folsom Prison Blues", "artist": "Johnny Cash" },
+    { "title": "Rhinestone Cowboy", "artist": "Glen Campbell" },
+    { "title": "Southern Nights", "artist": "Glen Campbell" },
+    { "title": "9 to 5", "artist": "Dolly Parton" },
+    { "title": "Jolene", "artist": "Dolly Parton" },
+    { "title": "Country Roads", "artist": "John Denver" },
+    { "title": "Bad Moon Rising", "artist": "Creedence Clearwater Revival" },
+    { "title": "On the Road Again", "artist": "Willie Nelson" }
+  ],
+  "setlist_rock": [
+    { "title": "Go Your Own Way", "artist": "Fleetwood Mac" },
+    { "title": "American Girl", "artist": "Tom Petty" },
+    { "title": "Free Fallin'", "artist": "Tom Petty" },
+    { "title": "Born to Run", "artist": "Bruce Springsteen" },
+    { "title": "Boys of Summer", "artist": "Don Henley" },
+    { "title": "Trouble Don't Last Always", "artist": "Luke Winslow-King" },
+    { "title": "Run Baby Run", "artist": "Sheryl Crow" },
+    { "title": "Like a Rolling Stone", "artist": "Bob Dylan" },
+    { "title": "Hard to Handle", "artist": "Black Crowes" },
+    { "title": "Bad Things", "artist": "Jace Everett" },
+    { "title": "Don't Think Twice It's Alright", "artist": "Bob Dylan" },
+    { "title": "Midnight Rambler", "artist": "The Rolling Stones" },
+    { "title": "Handle with Care", "artist": "The Travelling Wilburys" },
+    { "title": "After Dark", "artist": "Tito & Tarantula" },
+    { "title": "Sharp Dressed Man", "artist": "ZZ Top" }
+  ]
+}

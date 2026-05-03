@@ -1,0 +1,174 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+
+  # ─── HOMEPAGE ───────────────────────────────────────────────
+  - name: "homepage"
+    label: "Homepage"
+    files:
+      - label: "Homepage Content"
+        name: "homepage"
+        file: "_data/homepage.json"
+        fields:
+
+          - label: "Hero tagline"
+            name: "hero_tagline"
+            widget: "string"
+            hint: "The line beneath the band name. e.g. Live UK-based Country, Americana and Rock Band"
+
+          - label: "About — Paragraph 1"
+            name: "about_p1"
+            widget: "text"
+            hint: "First paragraph in the Who We Are section"
+
+          - label: "About — Paragraph 2"
+            name: "about_p2"
+            widget: "text"
+            hint: "Second paragraph (inspirations)"
+
+          - label: "About — Paragraph 3"
+            name: "about_p3"
+            widget: "text"
+            hint: "Third paragraph (the mission / vibe)"
+
+          - label: "About — Availability line"
+            name: "about_availability"
+            widget: "string"
+            hint: "e.g. Available for weddings, birthdays, corporate events and more."
+
+          - label: "Atmosphere strip text"
+            name: "atmos_text"
+            widget: "string"
+            hint: "The big quote on the full-width image strip"
+
+          - label: "Book Us intro"
+            name: "bookus_intro"
+            widget: "text"
+            hint: "Short paragraph above the Book Us button on the homepage"
+
+          - label: "Band Members"
+            name: "members"
+            widget: "list"
+            label_singular: "Member"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+
+          - label: "Homepage Reviews (featured)"
+            name: "reviews"
+            widget: "list"
+            label_singular: "Review"
+            max: 2
+            hint: "These two reviews show on the homepage. Edit the full list on the Reviews page."
+            fields:
+              - { label: "Review text", name: "text", widget: "text" }
+              - { label: "Reviewer name", name: "author", widget: "string" }
+              - { label: "Event & location", name: "event", widget: "string" }
+
+  # ─── REVIEWS PAGE ───────────────────────────────────────────
+  - name: "reviews"
+    label: "Reviews"
+    files:
+      - label: "All Reviews"
+        name: "reviews"
+        file: "_data/reviews.json"
+        fields:
+          - label: "Page intro"
+            name: "intro"
+            widget: "text"
+            hint: "The paragraph beneath the Reviews heading"
+
+          - label: "Reviews"
+            name: "reviews"
+            widget: "list"
+            label_singular: "Review"
+            fields:
+              - { label: "Review text", name: "text", widget: "text" }
+              - { label: "Reviewer name", name: "author", widget: "string" }
+              - { label: "Event & location", name: "event", widget: "string" }
+
+  # ─── BOOK US PAGE ───────────────────────────────────────────
+  - name: "bookus"
+    label: "Book Us"
+    files:
+      - label: "Book Us Page"
+        name: "bookus"
+        file: "_data/bookus.json"
+        fields:
+          - label: "Page intro"
+            name: "intro"
+            widget: "text"
+            hint: "Paragraph beneath the Book Us heading"
+
+          - label: "What's Included — intro"
+            name: "included_intro"
+            widget: "text"
+            hint: "Paragraph describing what a standard booking includes"
+
+          - label: "What's Included — bullet points"
+            name: "included_items"
+            widget: "list"
+            hint: "Each item in the included list"
+            field: { label: "Item", name: "item", widget: "string" }
+
+          - label: "How It Works — Steps"
+            name: "how_it_works"
+            widget: "list"
+            label_singular: "Step"
+            fields:
+              - { label: "Step title", name: "title", widget: "string" }
+              - { label: "Step description", name: "desc", widget: "text" }
+
+  # ─── SHOWREEL PAGE ──────────────────────────────────────────
+  - name: "showreel"
+    label: "Showreel & Setlist"
+    files:
+      - label: "Showreel Page"
+        name: "showreel"
+        file: "_data/showreel.json"
+        fields:
+          - label: "Page intro"
+            name: "intro"
+            widget: "text"
+
+          - label: "Showreel description"
+            name: "showreel_desc"
+            widget: "text"
+            hint: "Paragraph describing the showreel video"
+
+          - label: "Why Book Us — points"
+            name: "why_book"
+            widget: "list"
+            label_singular: "Point"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Setlist — Modern Country"
+            name: "setlist_modern"
+            widget: "list"
+            label_singular: "Song"
+            fields:
+              - { label: "Song title", name: "title", widget: "string" }
+              - { label: "Artist", name: "artist", widget: "string" }
+
+          - label: "Setlist — Classic Country"
+            name: "setlist_classic"
+            widget: "list"
+            label_singular: "Song"
+            fields:
+              - { label: "Song title", name: "title", widget: "string" }
+              - { label: "Artist", name: "artist", widget: "string" }
+
+          - label: "Setlist — Rock & Americana"
+            name: "setlist_rock"
+            widget: "list"
+            label_singular: "Song"
+            fields:
+              - { label: "Song title", name: "title", widget: "string" }
+              - { label: "Artist", name: "artist", widget: "string" }
