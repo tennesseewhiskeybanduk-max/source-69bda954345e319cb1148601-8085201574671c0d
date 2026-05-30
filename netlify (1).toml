@@ -11,21 +11,3 @@
   to = "/"
   status = 301
   force = true
-
-[[redirects]]
-  from = "/bookus.html"
-  to = "/bookus"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/reviews.html"
-  to = "/reviews"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/showreel.html"
-  to = "/showreel"
-  status = 301
-  force = true
